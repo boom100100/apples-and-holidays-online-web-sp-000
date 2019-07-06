@@ -126,7 +126,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_hash[season].each {|day, supply|
       if supply.include?("BBQ")
           array1 << day
-        end    
+        end
     }
   }
 
