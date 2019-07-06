@@ -128,7 +128,7 @@ def all_holidays_with_bbq(holiday_hash)
         if item == "BBQ"
           array1 << holiday_hash[season][day]
         end
-        } 
+        }
     }
   }
 
